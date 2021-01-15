@@ -36,19 +36,24 @@ h4{
 .general_message{
     min-width: 450px;
     max-width: 780px;
-    border:1px solid red;
     display:flex;
+    padding-left:75px;
 }
 .container_logo{
-    flex:20%;
-    border:1px solid orange;
-    float:left;
 }
 .logo_woods{
-
+    width:384px;
+    height:216px;
+    position: absolute;
+    top:-80px;
+    left:-180px;
 }
 .container_msg{
-
+    text-align:center;
+    padding:2.5vh;
+}
+.error_type{
+    color:#64bdcb;
 }
 .error_btn{
     background-color: #3f9bf8;
@@ -64,4 +69,14 @@ h4{
 }
 .info{
     flex:200px;
+    text-align:center;
+    background-color: rgb(203, 213, 218);
+    margin:5px;
+    padding:5px;
+    border-radius:3px;
+}
+a{
+    text-decoration:none;
+    color:#64bdcb;
+
 }
