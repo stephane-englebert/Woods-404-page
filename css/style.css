@@ -1,5 +1,6 @@
 body{
-    width: 100%;
+    /*background-image: linear-gradient(90deg, #051937, #001f54, #0d22aa);*/
+    background-image: linear-gradient(90deg, #051937, #001f54, #0d22aa);
 }
 header{
 
@@ -21,4 +22,46 @@ h3{
 }
 h4{
     font-size: 1.0vw;
+}
+.central_window{
+    min-width:500px;
+    max-width: 800px;
+    margin:auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding:10px;
+    margin-top: 30vh;
+    transform: translateY(-50%);
+}
+.general_message{
+    min-width: 450px;
+    max-width: 780px;
+    border:1px solid red;
+    display:flex;
+}
+.container_logo{
+    flex:20%;
+    border:1px solid orange;
+    float:left;
+}
+.logo_woods{
+
+}
+.container_msg{
+
+}
+.error_btn{
+    background-color: #3f9bf8;
+    color:#ffffff;
+    padding:0.7vw;
+    border-radius: 4px;
+    font-size:1.1vw;
+    cursor: pointer;
+}
+.general_infos{
+    width:100%;
+    display:flex;
+}
+.info{
+    flex:200px;
 }
